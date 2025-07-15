@@ -8295,9 +8295,9 @@ class Processor:
       cstr = '{} >= {}'.format (var_left, var_right)
       if (not option_grid_nonasc):
         cstr = '{} <= {}'.format (var_left, var_right)
-        self.cof.add_cstr (cstr)
-        cmd = 'opt.add ({})\n'.format (cstr)
-        mf.write (cmd)
+      self.cof.add_cstr (cstr)
+      cmd = 'opt.add ({})\n'.format (cstr)
+      mf.write (cmd)
     cstr = self.get_product_constraint_str ()
     self.cof.add_cstr (cstr)
     cmd = 'opt.add ({})\n'.format (cstr)
