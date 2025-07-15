@@ -1,5 +1,9 @@
 #include "local_data.h"
 
+// This code is part of the artifact of the paper:
+// "Automatic Generation of Mappings for Distributed Fourier Operations"
+// accepted for publication to SC'25.
+
 void __global__ transpose_device(int rows, int cols, double *input, double *output)
 {
   double2 *inx = (double2 *)input;

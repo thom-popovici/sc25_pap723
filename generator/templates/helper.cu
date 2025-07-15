@@ -1,5 +1,9 @@
 #include "helper.h"
 
+// This code is part of the artifact of the paper:
+// "Automatic Generation of Mappings for Distributed Fourier Operations"
+// accepted for publication to SC'25.
+
 #define THREADS 256
 #define BLOCKS 108
 

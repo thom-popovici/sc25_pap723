@@ -1,3 +1,7 @@
+## This script is part of the artifact of the paper:
+## "Automatic Generation of Mappings for Distributed Fourier Operations"
+## accepted for publication to SC'25.
+
 from pathlib import Path
 import csv
 
