@@ -103,7 +103,7 @@ if [ "$ACC" == "fast" ]; then
   FASTFLAG=" -fast -max-tries=200 "
 fi
 
-cmd="python dimage-fft.py current.rels -procs=${DIMGRID}D,${PC}p -nocodegen $MFLAG $PRFLAG -timeout=240 -memcap=16GB -grid-nondesc $FASTFLAG "
+cmd="python dimage-fft.py current.rels -procs=${DIMGRID}D,${PC}p -nocodegen $MFLAG $PRFLAG -timeout=240 -memcap=16GB $FASTFLAG "
 
 echo "Command: [$cmd]"
 
