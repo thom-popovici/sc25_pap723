@@ -1,1 +1,0 @@
-Using=DIMS: T=4096; M=16777216; B=32; File=ft2d-fb-mm.rels.template;
