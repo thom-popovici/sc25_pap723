@@ -1,0 +1,14 @@
+4
+genA3D:i,j
+1
+A3D:i,j:#TDIM#,#TDIM#
+genB3D:i,j
+1
+B3D:i,j:#TDIM#,#TDIM#
+FT3DA:i,j:fft
+2
+A3D:i,j:#TDIM#,#TDIM#
+B3D:i,j:#TDIM#,#TDIM#
+Sink:i,j
+1
+B3D:i,j:#TDIM#,#TDIM#
